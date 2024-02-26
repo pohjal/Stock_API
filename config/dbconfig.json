@@ -1,0 +1,12 @@
+{
+    "postgreSqlConfigs" : {
+        "host" : "34.88.131.157",
+        "user" : "",
+        "password" : "",
+        "dbname" : "api-db"
+    },
+    "poolConfig" : {
+        "poolSizeMin" : 1,
+        "poolSizeMax": 3
+    }
+}

@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "cypress": "^13.6.5"
+  },
+  "dependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "semantic-release": "^23.0.2"
+  }
+}

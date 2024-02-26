@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "cse-2024-g5-api"
+version = "0.1.0"
+description = "Group work on the course project for Continuous Software Engineering TJTS5901"
+authors = ["Samir Ylä-Outinen <samir.yla-outinen@poweresta.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Flask = "3.0.2"
+Flask-Caching = "^2.1.0"
+pytest = "8.0.0"
+requests = "2.31.0"
+gunicorn = "^21.2.0"
+autopep8 = "2.0.4"
+blinker = "1.7.0"
+certifi = "2024.2.2"
+charset-normalizer = "3.3.2"
+click = "8.1.7"
+idna = "3.6"
+itsdangerous = "2.1.2"
+jinja2 = "3.1.3"
+markupsafe = "2.1.5"
+pycodestyle = "2.11.1"
+urllib3 = "2.2.0"
+werkzeug = "3.0.1"
+psycopg2-binary = "^2.9.9"
+apscheduler = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
